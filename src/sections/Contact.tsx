@@ -1,4 +1,4 @@
-import grainImage from "../../public/assets/images/grain.jpg";
+import grainImage from "/assets/images/grain.jpg";
 
 const Contact = () => {
   return (

@@ -1,9 +1,9 @@
 import Card from "@/components/Card";
 import SectionHeader from "@/components/SectionHeader";
-import bookImage from "../../public/assets/images/book-cover.png";
+import bookImage from "/assets/images/book-cover.png";
 import { hobbies, toolboxItems } from "@/data/constant";
-import mapimage from "../../public/assets/images/map.png";
-import smile from "../../public/assets/images/memoji-smile.png";
+import mapimage from "/assets/images/map.png";
+import smile from "/assets/images/memoji-smile.png";
 import CardHeader from "@/components/CardHeader";
 import ToolboxsItems from "@/components/ToolboxsItems";
 

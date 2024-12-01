@@ -1,5 +1,5 @@
 import { ComponentPropsWithRef } from "react";
-import grainImage from "../../public/assets/images/grain.jpg";
+import grainImage from "/assets/images/grain.jpg";
 import { cn } from "@/lib/util";
 
 const Card = ({

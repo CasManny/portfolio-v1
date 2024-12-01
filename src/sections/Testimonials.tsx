@@ -1,5 +1,5 @@
 import SectionHeader from "@/components/SectionHeader";
-import Avatar from "../../public/assets/images/memoji-avatar-1.png";
+import Avatar from "/assets/images/memoji-avatar-1.png";
 import Card from "@/components/Card";
 
 const testimonials = [
