@@ -16,7 +16,12 @@ const Tape = () => {
     <div className="py-16 lg:py-24 overflow-x-clip">
       <div className="bg-gradient-to-r from-emerald-300 to-sky-300  -rotate-3 -mx-1">
         <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-          <div className="flex flex-none gap-4 py-3">
+          <div
+            className="flex flex-none gap-4 py-3"
+            style={{
+              transform: "translateX(-500px)",
+            }}
+          >
             {words.map((word, index) => (
               <div className="inline-flex gap-4" key={index}>
                 <span className="size-6 items-center text-gray-900 -rotate-12">

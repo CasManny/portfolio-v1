@@ -15,44 +15,46 @@ const Hero = () => {
         <div className="hero-ring size-[820px]" />
         <div className="hero-ring size-[1020px]" />
         <div className="hero-ring size-[1220px]" />
-        <HeroOrbit size={800} rotation={-55}>
-          <span>star</span>
+        <HeroOrbit size={800} rotation={-55} shouldOrbit orbitDuration="30s">
+          <span>+</span>
         </HeroOrbit>
-        <HeroOrbit size={550} rotation={20}>
-          <span>star</span>
+        <HeroOrbit size={550} rotation={20} shouldOrbit orbitDuration="32s">
+          <span>+</span>
         </HeroOrbit>
-        <HeroOrbit size={590} rotation={98}>
-          <span>star</span>
+        <HeroOrbit size={590} rotation={98} shouldOrbit orbitDuration="38s">
+          <span>+</span>
         </HeroOrbit>
-        <HeroOrbit size={430} rotation={-14}>
-          <span>sparkle</span>
+        <HeroOrbit size={430} rotation={-14} shouldOrbit orbitDuration="50s">
+          <span>*</span>
         </HeroOrbit>
-        <HeroOrbit size={440} rotation={79}>
-          <span>sparkle</span>
+        <HeroOrbit size={440} rotation={79} shouldOrbit orbitDuration="60s">
+          <span>*</span>
         </HeroOrbit>
-        <HeroOrbit size={530} rotation={178}>
-          <span>sparkle</span>
+        <HeroOrbit size={530} rotation={178} shouldOrbit orbitDuration="48s">
+          <span>*</span>
         </HeroOrbit>
-        <HeroOrbit size={530} rotation={144}>
-          <span>sparkle</span>
+        <HeroOrbit size={530} rotation={144} shouldOrbit orbitDuration="85s">
+          <span>*</span>
         </HeroOrbit>
-        <HeroOrbit size={710} rotation={144}>
-          <span>sparkle</span>
+        <HeroOrbit size={710} rotation={144} shouldOrbit orbitDuration="100s">
+          <span>*</span>
         </HeroOrbit>
-        <HeroOrbit size={720} rotation={90}>
+        <HeroOrbit size={720} rotation={90} shouldOrbit orbitDuration="15s">
           <div className="size-3 bg-emerald-300/20  rounded-full"></div>
         </HeroOrbit>
-        <HeroOrbit size={520} rotation={-42}>
+        <HeroOrbit size={520} rotation={-42} shouldOrbit orbitDuration="25s">
           <div className="size-2 bg-emerald-300/20  rounded-full"></div>
         </HeroOrbit>
-        <HeroOrbit size={650} rotation={-5}>
+        <HeroOrbit size={650} rotation={-5} shouldOrbit orbitDuration="45s">
           <div className="size-2 bg-emerald-300/20  rounded-full"></div>
         </HeroOrbit>
       </div>
       <div className="container">
         <div className="flex justify-center items-center">
           <div className="flex gap-4 items-center bg-gray-950 border border-gray-800 px-4 py-1.5 rounded-md">
-            <div className="bg-green-500 size-2.5 rounded-full"></div>
+            <div className="bg-green-500 size-2.5 rounded-full relative">
+              <div className="absolute inset-0 bg-green-500 animate-ping-large rounded-full" />
+            </div>
             <div className="text-sm font-medium">
               Available for new projects
             </div>

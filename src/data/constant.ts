@@ -1,7 +1,7 @@
-import AiStartupImage from "../../public/assets/images/ai-startup-landing-page.png";
-import DarksassLandingPage from "../../public/assets/images/dark-saas-landing-page.png";
-import LightSaasLandingPage from "../../public/assets/images/light-saas-landing-page.png";
-import tool from '../../public/assets/icons/github.svg'
+import AiStartupImage from "/assets/images/ai-startup-landing-page.png";
+import DarksassLandingPage from "/assets/images/dark-saas-landing-page.png";
+import LightSaasLandingPage from "/assets/images/light-saas-landing-page.png";
+import tool from '/assets/icons/github.svg'
 
 export const headerLinks = [
   {
